@@ -3,7 +3,7 @@ kind: Kustomization
 images:
 - name: 639406848386.dkr.ecr.ap-northeast-2.amazonaws.com/wavving
   newName: 639406848386.dkr.ecr.ap-northeast-2.amazonaws.com/wavving
-  newTag: abcdefg
+  newTag: dde76494
 resources:
 - prod-deployment.yaml
 - prod-service.yaml

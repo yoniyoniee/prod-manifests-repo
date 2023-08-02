@@ -2,17 +2,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wavving
+  name: prod-deployment
   namespace: default
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: wavving
+      app: wavving-prod
   template:
     metadata:
       labels:
-        app: wavving
+        app: wavving-prod
     spec:
       containers:
         - name: wavving
